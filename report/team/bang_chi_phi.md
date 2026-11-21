@@ -27,9 +27,6 @@ Số tính bằng `src/lab13.py`. Mọi con số tính từ cột `_simulated` g
 - Đối chiếu tính tay: (245.585 + 84.000 + 1.780.000 + 2.264.000) / 978 = 4.472 đ/việc thành công [simulated]. Chi phí này gấp 4.472 / 274,7 = 16,3 lần "hoá đơn chia số yêu cầu".
 - Làm lại là khoản lớn nhất: 2.264.000 / 4.373.585 × 100 = 51,8% tổng chi phí [simulated].
 
-- Chi phí mỗi việc thành công gấp bao nhiêu lần "hoá đơn chia số yêu cầu"? ...
-- Khoản nào chiếm tỉ trọng lớn nhất trong tổng chi phí, bao nhiêu phần trăm? ...
-
 ## A3 · Tách theo loại yêu cầu
 
 Tất cả cột chi phí và so sánh có nhãn simulated.
