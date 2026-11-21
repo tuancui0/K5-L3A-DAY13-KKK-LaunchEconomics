@@ -22,7 +22,7 @@ Cả nhóm chọn chia pilot ngẫu nhiên theo nhân viên (20 người mỗi n
 
 Chi phí mỗi việc thành công trên toàn mẫu là 4.472 đ; trong phạm vi `noi_dia` + `hang_nang`, cộng chi phí cố định ở quy mô 45.000 yêu cầu/tháng là 4.599 đ [simulated]. Chi phí cả hệ thống trên toàn mẫu là 5.865 đ/yêu cầu sau khi tính nhân viên làm thay, bằng 0,49× mức tự làm 12.000 đ [simulated]. Nếu xem lại 100%, chi phí trong phạm vi pilot lên 11.743–12.415 đ/việc [simulated].
 
-Hai bộ nhãn trùng 17/20 ca (85%). Trong đợt chạy thử, chỉ số chính là 82,83% (994/1.200), tỉ lệ bỏ qua gợi ý 27,12% (48/177), tỉ lệ mở lại 7 ngày 4,25% (51/1.200). Cả nhóm đề xuất **Go có điều kiện** cho kế hoạch pilot, với điều kiện xử lý lỗi sổ cái và hoàn trùng, chấp nhận đánh đổi cỡ mẫu, bật event và thay phút giả lập bằng thời gian đo thật. Kết quả duyệt chéo sẽ ghi sau khi nhóm được phân công chấm hồ sơ khác.
+Hai bộ nhãn trùng 17/20 ca (85%). Trong đợt chạy thử, chỉ số chính là 82,83% (994/1.200), tỉ lệ bỏ qua gợi ý 27,12% (48/177), tỉ lệ mở lại 7 ngày 4,25% (51/1.200). Cả nhóm đề xuất **Go có điều kiện** cho kế hoạch pilot, với điều kiện xử lý lỗi sổ cái và hoàn trùng, chấp nhận đánh đổi cỡ mẫu, bật event và thay phút giả lập bằng thời gian đo thật. Ở bước duyệt chéo, nhóm KKK chấm hồ sơ của nhóm RealCua được 25/30 (đề xuất khớp bằng chứng 5, số giả lập và phạm vi 10, pilot ra được quyết định 10) và kết luận Go có điều kiện: xem lại 100% có thể xoá lợi thế chi phí (11.743–12.415 đ so với 12.000 đ) [simulated], và power chỉ 0,64 nếu tác động thật là 5 điểm.
 
 ## 5. Khó khăn và cách xử lý
 
