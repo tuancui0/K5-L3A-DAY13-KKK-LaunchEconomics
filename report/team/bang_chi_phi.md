@@ -5,24 +5,27 @@ Số tính bằng `src/lab13.py`. Mọi con số tính từ cột `_simulated` g
 ## A1 · Ba phép thử đáp án biết trước
 
 | Phép thử (p = 0,8) | Kết quả của nhóm |
-| --- | --- |
-| Số lần chạy trung bình, tối đa 2 lần | ... |
-| Số lần chạy trung bình, chạy đến khi đúng | ... |
-| Hệ số chi phí mỗi việc thành công, tối đa 3 lần | ... |
+|---|---|
+| Số lần chạy trung bình, tối đa 2 lần | (1 - (1 - 0,8)^2) / 0,8 = 1,20 |
+| Số lần chạy trung bình, chạy đến khi đúng | 1 / 0,8 = 1,25 |
+| Hệ số chi phí mỗi việc thành công, tối đa 3 lần | [(1 - 0,2^3) / 0,8] / (1 - 0,2^3) = 1,25 |
 
 ## A2 · Mô hình chi phí từ trace
 
 | Khoản | Số tiền (đ) | Nguồn | Nhãn |
-| --- | ---: | --- | --- |
-| Token | ... | `logix_runs.csv` | đo từ trace |
-| Tool | ... | `logix_runs.csv` | đo từ trace |
-| Trong đó, phần của lần chạy thứ 2 và 3 | ... | attempt lớn hơn 1 | đo từ trace |
-| Xem lại | ... | `phut_xem_lai_simulated` | simulated |
-| Làm lại | ... | `phut_lam_lai_simulated` | simulated |
-| Tổng chi phí | ... | | |
-| Số việc thành công | ... | `ket_qua` | |
-| Chi phí mỗi việc thành công | ... | | |
-| Hoá đơn token và tool chia cho số yêu cầu | ... | | |
+|---|---:|---|---|
+| Token | 245.585 | logix_runs.csv | đo từ trace |
+| Tool | 84.000 | logix_runs.csv | đo từ trace |
+| Trong đó, phần của lần chạy thứ 2 và 3 | 93.804 | attempt lớn hơn 1 | đo từ trace |
+| Xem lại | 1.780.000 | phut_xem_lai_simulated | simulated |
+| Làm lại | 2.264.000 | phut_lam_lai_simulated | simulated |
+| Tổng chi phí | 4.373.585 | cộng bốn khoản chi phí | có phần simulated |
+| Số việc thành công | 978 | ket_qua == 'thanh_cong' | đo từ dữ liệu |
+| Chi phí mỗi việc thành công | 4.472 | tổng chi phí / số việc thành công | simulated |
+| Hoá đơn token và tool chia cho số yêu cầu | 274,7 | (token + tool) / 1.200 | đo từ trace |
+
+- Đối chiếu tính tay: (245.585 + 84.000 + 1.780.000 + 2.264.000) / 978 = 4.472 đ/việc thành công [simulated]. Chi phí này gấp 4.472 / 274,7 = 16,3 lần "hoá đơn chia số yêu cầu".
+- Làm lại là khoản lớn nhất: 2.264.000 / 4.373.585 × 100 = 51,8% tổng chi phí [simulated].
 
 - Chi phí mỗi việc thành công gấp bao nhiêu lần "hoá đơn chia số yêu cầu"? ...
 - Khoản nào chiếm tỉ trọng lớn nhất trong tổng chi phí, bao nhiêu phần trăm? ...
