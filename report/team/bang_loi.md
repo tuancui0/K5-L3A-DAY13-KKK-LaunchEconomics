@@ -8,26 +8,26 @@ Người gắn nhãn 1: qdung2003 · Người gắn nhãn 2: phamtuananhhatay
 
 | Ca | Nhãn người 1 | Nhãn người 2 | Trùng? | Nhãn thống nhất |
 | --: | --- | --- | --- | --- |
-| 1 | Do người dùng | Do người dùng | Có | Do người dùng |
-| 2 | Hệ thống | Hệ thống | Có | Hệ thống |
-| 3 | Ngữ cảnh | Ngữ cảnh | Có | Ngữ cảnh |
-| 4 | Giới hạn hệ thống | Giới hạn hệ thống | Có | Giới hạn hệ thống |
-| 5 | Ngầm | Ngầm | Có | Ngầm |
-| 6 | Hệ thống | Do người dùng | Không | Do người dùng |
-| 7 | Hệ thống | Hệ thống | Có | Hệ thống |
-| 8 | Hệ thống | Hệ thống | Có | Hệ thống |
-| 9 | Do người dùng | Do người dùng | Có | Do người dùng |
-| 10 | Ngữ cảnh | Ngữ cảnh | Có | Ngữ cảnh |
-| 11 | Giới hạn hệ thống | Giới hạn hệ thống | Có | Giới hạn hệ thống |
-| 12 | Ngầm | Ngầm | Có | Ngầm |
-| 13 | Hệ thống | Giới hạn hệ thống | Không | Giới hạn hệ thống |
-| 14 | Do người dùng | Do người dùng | Có | Do người dùng |
-| 15 | Hệ thống | Hệ thống | Có | Hệ thống |
-| 16 | Ngữ cảnh | Ngữ cảnh | Có | Ngữ cảnh |
-| 17 | Ngầm | Ngầm | Có | Ngầm |
-| 18 | Hệ thống | Ngữ cảnh | Không | Ngữ cảnh |
-| 19 | Giới hạn hệ thống | Giới hạn hệ thống | Có | Giới hạn hệ thống |
-| 20 | Hệ thống | Hệ thống | Có | Hệ thống |
+| 1 | ... | Do người dùng | Có | Do người dùng |
+| 2 | ... | Hệ thống | Có | Hệ thống |
+| 3 | ... | Ngữ cảnh | Có | Ngữ cảnh |
+| 4 | ... | Giới hạn hệ thống | Có | Giới hạn hệ thống |
+| 5 | ... | Ngầm | Có | Ngầm |
+| 6 | ... | Do người dùng | Không | Do người dùng |
+| 7 | ... | Hệ thống | Có | Hệ thống |
+| 8 | ... | Hệ thống | Có | Hệ thống |
+| 9 | ... | Do người dùng | Có | Do người dùng |
+| 10 | ... | Ngữ cảnh | Có | Ngữ cảnh |
+| 11 | ... | Giới hạn hệ thống | Có | Giới hạn hệ thống |
+| 12 | ... | Ngầm | Có | Ngầm |
+| 13 | ... | Giới hạn hệ thống | Không | Giới hạn hệ thống |
+| 14 | ... | Do người dùng | Có | Do người dùng |
+| 15 | ... | Hệ thống | Có | Hệ thống |
+| 16 | ... | Ngữ cảnh | Có | Ngữ cảnh |
+| 17 | ... | Ngầm | Có | Ngầm |
+| 18 | ... | Ngữ cảnh | Không | Ngữ cảnh |
+| 19 | ... | Giới hạn hệ thống | Có | Giới hạn hệ thống |
+| 20 | ... | Hệ thống | Có | Hệ thống |
 
 **Tỉ lệ đồng thuận theo hai cột nhãn:** 17 / 20 = 85%. Hai thành viên chịu trách nhiệm xác nhận việc gắn nhãn độc lập trước khi so.
 
