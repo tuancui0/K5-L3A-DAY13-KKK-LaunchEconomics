@@ -77,3 +77,24 @@ Sao chép mục dưới đây cho từng thành viên.
 - `src/lab13.py`: `python lab13.py` in "Ba phép thử đáp án biết trước: ĐẠT" và các bảng A2–B4, D1, E1.
 - `report/team/bang_chi_phi.md`: số khớp bảng đối chiếu trong `docs/Lab13_Huong_dan_chi_tiet_buoi_chieu.md`.
 - Commit: `ec17c7e` (nguoi_viet_code)
+
+## Vũ Quang Dũng — 2A202603486
+
+### Phần việc phụ trách
+
+- Người gắn nhãn 1: đọc đề, theo dõi điều kiện "Xong khi" của từng nhiệm vụ.
+- Gắn nhãn độc lập 20 ca lỗi ở CP3 (nhiệm vụ C).
+- Rà tiến độ CP5 và điền mục 4, mục 7 của `report/team/ho_so_launch_v0.md`.
+
+### Đóng góp cụ thể
+
+- Gắn nhãn 20 ca làm cột "Nhãn người 1" trong `report/team/bang_loi.md` (Phạm Tuấn Anh ghi hộ vào file); trùng 17/20 ca với người gắn nhãn 2, đồng thuận 85%.
+- Rà sản phẩm nhiệm vụ E theo "Xong khi": `chi_so.md` đủ ba chỉ số tính thử, hai chỉ số đề xuất, 10 event có `trace_id`, ba dòng rủi ro; `grep -rni production report/team` không in gì.
+- Tính lại ba chỉ số E1 từ `src/logix_requests.csv`: 994/1.200 = 82,83% · 48/177 = 27,12% · 51/1.200 = 4,25%, khớp `chi_so.md`.
+- Soạn mục 4 (chỉ số) và mục 7 (rủi ro kinh tế) cho hồ sơ launch; người giữ hồ sơ hợp nhất vào bản cuối.
+
+### Bằng chứng
+
+- `report/team/bang_loi.md`: cột "Nhãn người 1", tỉ lệ đồng thuận 17/20. Commit `35e1907`.
+- `report/team/2A202603486_VuQuangDung.md`.
+- Commit: `b63291a`, `05f2c74` (vudung2003)
