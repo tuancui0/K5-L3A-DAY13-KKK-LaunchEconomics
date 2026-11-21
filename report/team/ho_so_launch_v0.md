@@ -10,7 +10,7 @@ Nhóm: KKK · Lớp: L3A
 | 2 · Ba yếu tố nhạy nhất | `bang_chi_phi.md` · B1, B2 | Số ca làm lại gấp đôi: +51,8%; tỉ lệ xem lại gấp đôi: +40,7%; lương nhân viên tăng 25%: +23,1% chi phí mỗi việc thành công [simulated] | Giả lập | Người kiểm số |
 | 3 · So với nhân viên tự làm | `bang_chi_phi.md` · A2, A4, B3, B4 | Toàn mẫu: 5.865 đ/yêu cầu khi cộng 222 ca nhân viên làm thay, bằng 0,49× mức 12.000 đ tự làm; chưa cộng cố định. Giới hạn 2 lần chạy cho chi phí cả hệ thống thấp nhất: 6.901.220 đ/1.200 yêu cầu. Nếu xem lại 100% trong phạm vi pilot: 11.743 đ/việc (0,98×), hoặc 12.415 đ/việc (1,03×) khi làm lại trung bình 15,3 phút [simulated] | Giả lập | Người kiểm số |
 | 4 · Chỉ số chính, chỉ số dùng, chỉ số an toàn | `chi_so.md` · E1 | ... | Chưa | ... |
-| 5 · Bảng lỗi và cách khắc phục | `bang_loi.md` · C | ... | Chưa | ... |
+| 5 · Bảng lỗi và cách khắc phục | `bang_loi.md` · C | Hai cột nhãn trùng 17/20 ca (85%); 3 ca khác nhãn đã có quy tắc phân biệt; 5/5 loại lỗi có cách phát hiện đo được, cách khắc phục và một vai trò phụ trách | Xong, có bằng chứng | PM trợ lý hoàn phí |
 | 6 · Pilot plan | `pilot_plan.yaml` · D1–D3 | ... | Chưa | ... |
 | 7 · Rủi ro kinh tế | `chi_so.md` · E2; `bang_chi_phi.md` · B1, B4 | ... | Chưa | ... |
 
