@@ -77,3 +77,37 @@ Sao chép mục dưới đây cho từng thành viên.
 - `src/lab13.py`: `python lab13.py` in "Ba phép thử đáp án biết trước: ĐẠT" và các bảng A2–B4, D1, E1.
 - `report/team/bang_chi_phi.md`: số khớp bảng đối chiếu trong `docs/Lab13_Huong_dan_chi_tiet_buoi_chieu.md`.
 - Commit: `ec17c7e` (nguoi_viet_code)
+
+## Vũ Quang Dũng — 2A202603486
+
+### Phần việc phụ trách
+
+- Người gắn nhãn 1: gắn nhãn 20 ca lỗi ở CP3; rà tiến độ CP5.
+
+### Đóng góp cụ thể
+
+- Gắn nhãn cột "Nhãn người 1" trong `bang_loi.md`, đồng thuận 17/20 = 85%.
+- Soạn mục 4, mục 7 của `ho_so_launch_v0.md`.
+
+### Bằng chứng
+
+- `report/team/bang_loi.md` (commit `35e1907`), `report/team/2A202603486_VuQuangDung.md`.
+
+## Phạm Tuấn Anh — 2A202603503
+
+### Phần việc phụ trách
+
+- Người gắn nhãn 2 kiêm giữ hồ sơ: ghi bộ nhãn thứ hai ở CP3, tổng hợp `ho_so_launch_v0.md` từ CP1 đến CP5.
+- Soạn các phần việc chung về kế hoạch pilot, chỉ số, rủi ro và báo cáo nhóm theo quyết định của nhóm; phối hợp với người gắn nhãn 1 ở các mục 4 và 7 của hồ sơ.
+
+### Đóng góp cụ thể
+
+- CP1–CP2: cập nhật chi phí 4.472 đ/việc trên toàn mẫu, 4.599 đ/việc trong phạm vi đã cộng cố định và ba yếu tố nhạy nhất vào hồ sơ [simulated].
+- CP3: đối chiếu hai cột nhãn (17/20 ca trùng = 85%), ghi quy tắc phân biệt cho ca 6, 13, 18 và bảng khắc phục 5 ca. Hai thành viên xác nhận quy trình gắn nhãn độc lập trước khi nộp.
+- CP4: tổng hợp lựa chọn chia 20 nhân viên mỗi nhóm, cỡ mẫu hiệu dụng 859/nhóm ở MDE 6 điểm, đánh đổi power 0,64 nếu tác động thật chỉ 5 điểm, cùng 4 luật dừng.
+- CP5: tổng hợp ba chỉ số 82,83%, 27,12%, 4,25%; nối chỉ số với event có `trace_id`, ghi rủi ro kinh tế và đề xuất Go có điều kiện vào hồ sơ.
+
+### Bằng chứng
+
+- `report/team/bang_loi.md`, `report/team/ho_so_launch_v0.md` và báo cáo cá nhân `report/team/2A202603503_PhamTuanAnh.md`.
+- Phần việc chung: `report/team/pilot_plan.yaml`, `report/team/chi_so.md`, `report/team/group_report.md`.
