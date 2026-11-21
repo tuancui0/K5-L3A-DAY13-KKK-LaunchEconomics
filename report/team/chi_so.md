@@ -7,7 +7,7 @@
 | Chính (kết quả) | % yêu cầu đóng trong 24 giờ và không mở lại trong 7 ngày | Số yêu cầu có `dong_trong_24h == 1` và `mo_lai_trong_7_ngay == 0`, chia tổng số yêu cầu | **82,83% (994/1.200)** |
 | Dùng | Tỉ lệ bỏ qua gợi ý | Số quyết định `sua` hoặc `bo`, chia số yêu cầu được xem lại | **27,12% (48/177)** |
 | An toàn | Tỉ lệ lỗi lọt đến khách | Số yêu cầu có `mo_lai_trong_7_ngay == 1`, chia tổng số yêu cầu | **4,25% (51/1.200)** |
-| Dùng | % yêu cầu nhóm can thiệp thực sự mở trợ lý | Số `request_id` duy nhất có event `agent_suggestion_shown`, chia số yêu cầu được phân vào nhóm can thiệp | Không cần tính |
+| Dùng | % yêu cầu nhóm can thiệp thực sự mở trợ lý | Số `request_id` duy nhất có event `assistant_opened`, chia số yêu cầu được phân vào nhóm can thiệp | Không cần tính |
 | An toàn | % đơn hoàn sai tiền qua kiểm tra mẫu hằng tuần | Số mẫu có `so_tien_da_hoan != so_tien_dung`, chia tổng số event `audit_sample_checked` | Không cần tính |
 
 Chỉ số chính trong đợt chạy thử là **82,83% (994/1.200)**. Không kết luận trợ lý đã nâng chỉ số vì đợt chạy thử chưa có nhóm đối chứng đồng thời.
@@ -20,6 +20,7 @@ Chỉ số chính trong đợt chạy thử là **82,83% (994/1.200)**. Không k
 | --- | --- | --- | --- |
 | `refund_request_created` | Ứng dụng khách hàng | `request_id`, `loai`, `so_tien`, `arm`, `created_at`, `trace_id` | Khi khách gửi yêu cầu |
 | `agent_run_completed` | Agent | `request_id`, `attempt`, `tokens_in`, `tokens_out`, `tool_calls`, `status`, `trace_id` | Sau mọi lần chạy, kể cả lần lỗi |
+| `assistant_opened` | Giao diện nhân viên | `request_id`, `staff_id`, `arm`, `opened_at`, `trace_id` | Khi nhân viên mở trợ lý |
 | `agent_suggestion_shown` | Giao diện nhân viên | `request_id`, `staff_id`, `so_tien_de_xuat`, `trace_id` | Khi gợi ý xuất hiện |
 | `staff_review_decision` | Nhân viên CSKH | `request_id`, `staff_id`, `quyet_dinh`, `phut_xem_lai`, `trace_id` | Khi nhân viên giữ, sửa hoặc bỏ gợi ý |
 | `staff_rework_completed` | Nhân viên CSKH | `request_id`, `phut_lam_lai`, `ly_do`, `trace_id` | Khi làm lại hoàn tất |
@@ -34,7 +35,7 @@ Chỉ số chính trong đợt chạy thử là **82,83% (994/1.200)**. Không k
 - Chỉ số chính dùng `refund_request_created`, `ticket_closed` và `ticket_reopened` để tính thời gian đóng và theo dõi mở lại trong 7 ngày.
 - Tỉ lệ bỏ qua gợi ý dùng `agent_suggestion_shown` và `staff_review_decision` với quyết định `sua` hoặc `bo`.
 - Tỉ lệ lỗi lọt đến khách dùng `refund_request_created` và `ticket_reopened`.
-- % yêu cầu thực sự mở trợ lý dùng `refund_request_created` (`arm = intervention`) và `agent_suggestion_shown`.
+- % yêu cầu thực sự mở trợ lý dùng `refund_request_created` (`arm = intervention`) và `assistant_opened`.
 - % đơn hoàn sai tiền dùng `refund_ledger_write` và `audit_sample_checked`; tất cả event nối với nhau bằng `trace_id`.
 
 ## E2 · Rủi ro kinh tế
