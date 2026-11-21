@@ -2,10 +2,10 @@
 
 ## Thông tin nhóm
 
-- Tên nhóm:
-- Lớp: L3A hoặc L3B
-- Repo nhóm: `K5-L3A-DAY13-TenNhom-LaunchEconomics` (xem [SUBMISSION.md](SUBMISSION.md))
-- URL repo, nhánh nộp, commit chốt:
+- Tên nhóm: KKK
+- Lớp: L3A
+- Repo nhóm: [`K5-L3A-DAY13-KKK-LaunchEconomics`](https://github.com/tuancui0/K5-L3A-DAY13-KKK-LaunchEconomics) (xem [SUBMISSION.md](SUBMISSION.md))
+- URL repo, nhánh nộp, commit chốt: https://github.com/tuancui0/K5-L3A-DAY13-KKK-LaunchEconomics · nhánh `main` · commit chốt: (điền sau khi push bản cuối lúc 17:45)
 
 ## Thành viên
 
@@ -55,4 +55,4 @@ Sao chép mục dưới đây cho từng thành viên.
 
 - `src/lab13.py`: `python lab13.py` in "Ba phép thử đáp án biết trước: ĐẠT" và các bảng A2–B4, D1, E1.
 - `report/team/bang_chi_phi.md`: số khớp bảng đối chiếu trong `docs/Lab13_Huong_dan_chi_tiet_buoi_chieu.md`.
-- Commit: (điền mã commit sau khi push)
+- Commit: `ec17c7e` (nguoi_viet_code)
