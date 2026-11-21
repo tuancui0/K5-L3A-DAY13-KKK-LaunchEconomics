@@ -16,6 +16,8 @@ Báo cáo ngắn, tối đa 2 trang. Số liệu chi tiết nằm trong các fil
 
 Tóm tắt cách nhóm làm từng nhiệm vụ A–E và link tới file hồ sơ tương ứng.
 
+- Nhiệm vụ D: cả nhóm chọn chia pilot ngẫu nhiên theo nhân viên (20 người mỗi nhóm), ghi rõ đánh đổi MDE 6 điểm và power khoảng 0,64 nếu tác động thật là 5 điểm; kế hoạch và luật dừng nằm trong `pilot_plan.yaml`. Người giữ hồ sơ tổng hợp quyết định chung vào `ho_so_launch_v0.md`.
+
 ...
 
 ## 4. Kết quả
